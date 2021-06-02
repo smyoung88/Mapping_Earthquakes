@@ -1,5 +1,5 @@
 // Add console.log to check to see if our code is working.
-console.log("working");
+//console.log("working");
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -103,7 +103,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   L.geoJson(data, {
     	// We turn each feature into a circleMarker on the map.
     	pointToLayer: function(feature, latlng) {
-      		console.log(data);
+      		//console.log(data);
       		return L.circleMarker(latlng);
         },
       // We set the style for each circleMarker using our styleInfo function.
@@ -159,7 +159,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   L.geoJson(data, {
     // We turn each feature into a circleMarker on the map.
     pointToLayer: function(feature, latlng) {
-        console.log(data);
+        //console.log(data);
         return L.circleMarker(latlng);
       },
     // We set the style for each circleMarker using our styleInfo function.
@@ -198,7 +198,7 @@ legend.onAdd = function() {
 
 // Looping through our intervals to generate a label with a colored square for each interval.
   for (var i = 0; i < magnitudes.length; i++) {
-    console.log(colors[i]);
+    //console.log(colors[i]);
     div.innerHTML +=
       "<i style='background: " + colors[i] + "'></i> " +
       magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
