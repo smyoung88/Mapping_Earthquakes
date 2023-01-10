@@ -5,7 +5,7 @@ The purpose of this project is to visually show the differences between the magn
 
 ## Oilfield Application
 
-As oil and gas operators continue their completions operations utilizing hydraulic fracturing, questions on whether or not earthquakes come from these activities continue to be asked. This data can be combined with oilfield operations data to validate whether or not hydraulic fracturing operations were occuring in the vicinity during the times of these earthquakes.
+As oil and gas operators continue their completions operations utilizing hydraulic fracturing, questions on whether or not earthquakes come from these activities continue to be asked. This data can be combined with oilfield operations data to validate whether or not hydraulic fracturing operations were occuring in the vicinity of the earthquakes when they occured.
 
 ## Project Output Screenshot
 <img height="100%" width="100%" src="https://github.com/smyoung88/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/earthquake_map2.png">
